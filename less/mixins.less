@@ -1,1 +1,28 @@
 // Mixins Here
+.btnmxn(@height,@width){
+        display:flex;
+        color:@porcelain;
+        background-color:@btn-bg-color;
+        border-radius: 4px;
+        justify-content: center;
+        height: @height;
+        width: @width;
+        font-size:2rem;
+        padding-top:.5rem;
+        &:hover{
+            background-color:@porcelain;
+            color:@btn-bg-color;
+        }
+    }
+
+.btnphone{
+    @media @phone{
+        width:100%;
+        height:5rem;
+        padding-top:1.6rem;
+    }
+}
+
+        // height:3rem;
+        // width:10rem;
+

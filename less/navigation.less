@@ -1,1 +1,18 @@
 // Navigation code here
+.nav-container{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    padding:1rem 0rem;
+}
+
+.nav-child{
+    align-self:center;
+    display:flex;
+    width:35%;
+    justify-content:space-between;
+    padding-top:1rem;
+    @media @phone{
+        width:80%;
+    }
+}
